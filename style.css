@@ -1,0 +1,81 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700|PT++Mono);
+
+:root{
+    --primary-color:#1C2A24;
+    --secondary-color: dimgray;
+    --tertiary-color:#C57F33;
+    --quaternary-color: #CCBBA8;
+}
+
+body{
+    font-size: 15px;
+    font-family: Lato, sans-serif;
+    background-image: url(restaurant.jpeg);
+    background-position: center;
+}
+
+#container{
+    height: 525px;
+    width: 360px;
+    margin: 50px auto;
+    background-color: #F7F7F7;
+    border-radius: 22px;
+}
+
+.title{
+    background-color: var(--primary-color);
+    color: var(--quaternary-color);
+    padding: 20px;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: normal;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    text-align: center;
+}
+
+.tipsForm{
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+
+.formInput{
+    background: white;
+    width: 40px;
+    padding: 5px 5px 8px 8px;
+    border: 1px solid var(--secondary-color);
+}
+
+.formSelect{
+    width: 180px;
+    padding: 5px;
+    font-size: 12px;
+    border: 1px solid var(--secondary-color);
+}
+
+.formSubmit{
+    text-transform: uppercase;
+    font-weight: 700;
+    display: block;
+    margin: 30px auto;
+    background-color: var(--primary-color);
+    border-radius: 5px;
+    width: 200px;
+    height: 50px;
+    font-size: 17px;
+    color: var(--quaternary-color);
+    border: none;
+}
+
+.formSubmit:hover{
+    background-color: var(--tertiary-color);
+    color: var(--primary-color);
+    cursor: pointer;
+}
+
+#totalTip{
+    font-size: 20px;
+    margin-top: 5px;
+    text-align: center;
+}
